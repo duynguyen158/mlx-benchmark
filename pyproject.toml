@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "mlx-benchmark"
+version = "0.1.0"
+description = ""
+authors = ["Duy Nguyen <57234880+duynguyen158@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.14"
+mlx = ">=0.0.5"
+black = ">=23.12.0"
+pre-commit = ">=3.6.0"
+tqdm = ">=4.66.1"
+matplotlib = ">=3.8.2"
+pandas = ">=2.1.4"
+numpy = "^1.26.4"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+scipy = "^1.13.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
